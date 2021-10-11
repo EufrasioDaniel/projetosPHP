@@ -29,7 +29,7 @@ li{
 	padding: 5px 20px;
 	background: url(../imagens/seta.png) no-repeat left center;
 }*/
-
+/*
 ul{
 	margin: 0;
 	padding: 0;
@@ -56,4 +56,281 @@ a:hover, .selecionado a{
 ul li a#index{
 	color: blue;
 	background: #f99200;
+}*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif ;
 }
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 720px;
+}
+
+ul li{
+	float: left;
+	background: url(../imagens/aba-direita.png) no-repeat top right;
+}
+
+ul li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
+	text-decoration: none;
+	background: url(../imagens/aba-esquerda.png) no-repeat top left;
+	color:  #FFF;
+}
+a:hover{
+	color: #8941ef;
+}
+
+ul #atual{
+	background: url(../imagens/aba-direita-atual.png) no-repeat top right;
+}
+ul #atual a{
+	background: url(../imagens/aba-esquerda-atual.png) no-repeat top left;
+}
+
+span{
+	background: url(../imagens/aba-esquerda.png) no-repeat top left;
+}
+.bugada{
+	background: url(../imagens/aba-direita.png) top right;
+	color: green;
+}*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #f2f2f2;
+}
+
+#container{
+	width: 85%;
+	margin: 0 auto;
+	background: #fff;
+	min-width: 720px;
+	max-width: 1280px;
+}
+
+#marca{
+	width: 100%;
+	height: 300px;
+	background: #225992 url(../imagens/cabecalho2.jpg) no-repeat center;
+	text-align: center;
+	line-height: 300px;
+}
+
+/*
+#imagem{
+	width: 90%;
+	overflow: hidden;
+	border: 1px solid red;
+}
+*/
+/*
+#conteudo{
+	width: 74%;
+	float: right;
+}
+
+#navegacao{
+	width: 25%;
+	float: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #d1d1d1;
+}
+#conteudo-principal{
+	width: 63%;
+	float: left;
+}
+#conteudo-secundario{
+	width: 34%;
+	float: right;
+	background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+#rodape{
+	clear: both;
+	background: #c4c4c4;
+	padding: 5px;
+}
+
+#navegacao a{
+	text-decoration: none;
+	list-style: none;
+	height: 100%;
+}
+#navegacao ul{
+	list-style: none;
+}
+img.img-noticia{
+	width: 96%;
+	padding: 2%;
+	max-width: 600px;
+}*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+table{
+	width: 600px;
+	border-collapse: separate;
+}
+th, td{
+	padding: 7px;
+}
+
+th{
+	text-transform: uppercase;
+	border-top: 1px solid #999;
+	border-bottom: 1px solid #111;
+	text-align: left;
+	font-size: 90%;
+	letter-spacing: 0.1em;
+}
+
+tr.alternado{
+	background-color: #efefef;
+}
+
+.numero{
+	text-align: right;
+}
+
+tr:hover{
+	background-color: #c3e6e5;
+}*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+/*input [type="text"]{*/
+/*
+input [type="text"]{
+	width: 20em;
+}
+input.radio, input.checkbox, input.submit{
+	width: auto;
+}
+
+textarea{
+	width: 20em;
+	height: 10em;
+}
+.radio{
+	margin-right: 1em;
+}*/
+/*
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #643d87 url(../imagens/fundo.jpg) no-repeat top center;
+}
+
+#container{
+	width: 400px;
+	height: 300px;
+	background-color: rgba(255, 255, 255, 0.3);
+	-webkit-border-radius:  10px;
+	-moz-border-radius:  10px;
+	margin: 0 auto;
+	margin-top: 120px;
+	text-align: center;
+}
+
+#container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-bottom: 30px;
+}
+
+input{
+	height: 40px;
+	width: 80%;
+	font-size: 18px;
+	margin-bottom: 10px;
+	background-color: #FFF;
+	padding-left: 40px ;
+	border:  none;
+	background-repeat: no-repeat;
+	background-position: 10px;
+}
+
+input.email{
+	background-image: url(../imagens/icone-usuario.png);
+}
+input.senha{
+	background-image: url(../imagens/icone-cadeado.png);
+}
+input.submit{
+	color: #fff;
+	background-color: #f79300;
+	border: 2px solid #db7d00;
+	padding: 5px 20px;
+	height: 45px;
+	width: 90%;
+	background: linear-gradient(to bottom, #faa600, #f68a00);
+}*/
+
+.caixa{
+	width: 400px;
+	background: #dedede url(../imagens/fundo-arredondamento.png) repeat-y;
+}
+.caixa h2{
+	padding: 10px 20px 0 20px;
+	background: url(../imagens/topo2.png) no-repeat left top;
+}
+.caixa .ultimo{
+	background: url(../imagens/baixo2.png) no-repeat left bottom;
+	width: 400px;
+	height: 24px;
+}
+.caixa p{
+	padding: 0 20px;
+	margin-bottom: 0px;
+}
+/*
+.caixa{
+	width: 400px;
+	background: #dedede url(../imagens/topo2.png) no-repeat left top;
+}
+*/
+/*
+h2{
+	padding: 10px 20px 0 20px;
+}
+.caixa p{
+	background: url(../imagens/baixo2.png) no-repeat left bottom;
+	padding: 0px 20px 20px 20px;
+}
+*/
