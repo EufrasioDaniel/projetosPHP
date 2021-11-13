@@ -20,10 +20,217 @@
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>Música para todos - Spotify</title>
+    <link rel="icon" type="text/css" href="imagens/favicon.png">
   </head>
   <body>
-    
-    <h1>Olá, mundo!</h1>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        <div class="container">  
+          <a href="index.html" class="navbar-brand">
+            <img src="imagens/spotify.svg" width="142">
+          </a>
+          
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+        
+        <div class="collapse navbar-collapse" id="nav-principal">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link">Premium</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Ajuda</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Baixar</a>
+              </li>
+
+              <li class="nav-item divisor">
+              </li>
+
+              <li class="nav-item">
+                <a href="" class="nav-link">Inscrever-se</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Entrar</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="d-flex"> <!-- Criou um flex container com o d-flex -->
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12 capa">
+            <div id="carousel-spotify" class="carousel slide" data-ride= "carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h1>Música para Todos</h1>
+                  <a href="" class="btn btn-custom btn-roxo">
+                    Aproveite o Spotify Free
+                  </a>
+                  <a href="" class="btn btn-custom btn-branco">
+                    Obter o Spotify Premium
+                  </a>                  
+                </div>
+                <div class="carousel-item">
+                  <h1>As Melhores Rádios</h1>
+                  <a href="" class="btn btn-custom btn-branco">
+                    <i class="fas fa-music"></i> Ouça Agora
+                  </a>                  
+                </div>
+              </div>
+              <a href="#carousel-spotify" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
+              </a>              
+              <a href="#carousel-spotify" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="cointainer">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row albuns">
+              <div class="col-md-6">
+                <img src="imagens/img1.jpg" class="img-fluid d-none d-md-block">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/img2.jpg" class="img-fluid d-none d-md-block"> 
+              </div>
+
+            </div>
+            <div class="row albuns">
+              <div class="col-md-6">
+                <img src="imagens/img3.jpg" class="img-fluid d-none d-md-block">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/img4.jpg" class="img-fluid d-none d-md-block"> 
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2> O Que o Spotify Tem?</h2>
+
+            <h3>Músicas</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+
+            <h3>Playlists</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            
+            <h3>Novos Lançamentos</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Fácil</h2>
+            <h3>Buscar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+            </p>
+
+            <h3>Navegar</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            </p>
+            <h3>Descobrir</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat.
+            </p>
+            
+          </div>
+          <div class="col-md-8 d-none d-md-block">
+            <div class="row rotacionar">
+              <div class="col-md-6">
+                <img src="imagens/iphone1.png" class="img-fluid">
+              </div>
+              <div class="col-md-6">
+                <img src="imagens/iphone2.png" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="imagens/spotify.svg" width="142">
+          </div>
+          <div class="col-md-2">
+            <h4>Company</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Empregos</a></li>
+              <li><a href="">Imprensa</a></li>
+              <li><a href="">Novidades</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Comunidades</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Artistas</a></li>
+              <li><a href="">Desenvolvedores</a></li>
+              <li><a href="">Marcas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>Links Úteis</h4>
+            <ul class="navbar-nav">
+              <li><a href="">Ajuda</a></li>
+              <li><a href="">Presentes</a></li>
+              <li><a href="">Player da Web</a></li>
+          </div>
+          <div class="col-md-4">
+           <ul>
+             <li>
+               <a href="">
+                 <img src="imagens/facebook.png">
+               </a>
+             </li>
+             <li>
+               <a href="">
+                <img src="imagens/twitter.png">
+               </a>
+             </li>
+             <li>
+               <a href="">
+                 <img src="imagens/instagram.png">
+               </a>
+             </li>
+             
+           </ul>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
