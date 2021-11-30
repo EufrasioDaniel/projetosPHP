@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<meta charset="utf-8">
+		<script>
+			function calculo(numero_1, numero_2, operacao){
+				if(operacao == 'soma'){
+					return 'O Resultado é ' + (numero_1 +  numero_2);
+				}else{
+					return 'O Resultado é ' + (numero_1 -  numero_2);
+				}
+			}
+			
+		</script>
+		<script>
+			var numero_1 = prompt('Digite o primeiro numero : ');
+			var numero_2 = prompt('Digite o segundo numero: ');
+			var operacao = prompt('Digite operacao: '); 
+			numero_1 = parseInt(numero_1);
+			numero_2 = parseInt(numero_2);
+			console.log(calculo(numero_1,numero_2, operacao));
+
+
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

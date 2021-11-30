@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<meta charset="utf-8">
+		<script>
+			var data = new Date();
+
+/*			document.write(data.getDate() + '/' + (data.getMonth() + 1) + '/' + (data.getFullYear()));
+/*			document.write('<br/>');*/
+			/*Add e Rem dias*/
+/*			document.write(data.toString());
+			data.setDate(data.getDate () + 1);
+			document.write('<hr/>');
+			document.write(data.toString());
+			document.write('<br/><br/><hr/>');
+			/*Add e Rem meses*/
+/*			document.write(data.toString());
+			data.setMonth(data.getMonth() + 1);
+			document.write('<hr/>');
+			document.write(data.toString());*/
+
+/*			document.write('<hr/>');
+			document.write(data.toString());
+			data.setFullYear(data.getFullYear() -1)
+			document.write('<hr/>');
+			document.write(data.toString());*/
+
+			var data1 = new Date(2017, 0, 15)
+
+			var data2 = new Date(2017, 1, 23)
+
+			document.write(data1.toString())
+			document.write('<hr/>');
+			document.write(data2.toString())
+			
+			document.write('<br/> <br/> <hr/>');
+			document.write(data1.getTime())
+			document.write('<hr/>');
+			document.write(data2.getTime())
+
+			//1 de janeiro de 1970 até a data em mili
+			//encontrar os mili entre 1 e 2
+			document.write('<br/> <br/> <hr/>');
+
+			var milissegundo_entre_datas = Math.abs(data1.getTime() - data2.getTime());
+
+			
+			document.write('<br/> <br/> <hr/>');
+			var milissegundo_por_dia =  (1*24*60*60*1000)
+			document.write('1 dia tem : ' + milissegundo_por_dia + 'milissegundos');
+			document.write('<br/> <br/> <hr/>');
+			document.write('A Diferença entre data1 e data2 é de ' + Math.ceil(milissegundo_entre_datas / milissegundo_por_dia) + ' Dias');
+
+
+
+		</script>
+	</head>
+	<body>
+		
+	</body>
+</html>

@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <meta charset="utf-8">
+    <script>
+      var x = document.getElementById("demo");
+      console.log('Entrei')
+      navigator.geolocation.getCurrentPosition(success)
+      function success(pos) {
+        var crd = pos.coords;
+
+        console.log('Sua posição atual é:');
+        console.log('Latitude : ' + crd.latitude);
+        console.log('Longitude: ' + crd.longitude);
+        console.log('Mais ou menos ' + crd.accuracy + ' metros.');
+        console.log('Mais ou menos ' + crd.speed + ' metros.');
+      };
+    </script>
+  </head>
+  <body>
+<!--     <input onfocus="console.log('Recebeu o foco')" onblur="console.log('Retirou o foco')" type="text">
+    <select onchange="console.log('Estado foi Modificado')">
+      <option>--Selecione--</option>
+      <option value="1">Primeira Opção</option>
+      <option value="2">Segunda Opção</option>
+    </select> -->
+  </body>
+</html>

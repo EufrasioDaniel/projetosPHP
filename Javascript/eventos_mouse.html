@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript</title>
+		<meta charset="utf-8">
+		<script>
+
+			function acao() {
+				alert('Evento Disparado');
+			}			
+			function acao2() {
+				alert('Evento Disparado2');
+			}
+		</script>
+	</head>
+	<body>
+		<div onclick="acao()" style="background: #ccc; height: 150px; width: 150px;"></div>
+		<div ondblclick="acao()" style="background: #ccc; height: 150px; width: 150px;"></div>
+		<div onmouseup="acao()" style="background: green; height: 150px; width: 150px;"></div> <!-- Quando clica e depois solta o clique -->
+		<div onmouseover="acao()" style="background: red; height: 150px; width: 150px;"></div> 
+		<div onmouseout="acao()" style="background: blue; height: 150px; width: 150px;"></div> 
+		<div onclick="acao()" onmouseout="acao2()" style="background: blue; height: 150px; width: 150px;"></div> 
+	</body>
+</html>

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript</title>
+    <meta charset="utf-8">
+    <script>
+      function modificarBackground1(corBck){
+        console.log('entrei')
+        console.log(corBck)
+        document.getElementById('input_exemplo').style.backgroundColor = corBck;
+      }      
+      function modificarBackground2(){
+        console.log('entrei2')
+        var element = document.getElementById('input_exemplo');
+        console.log(element.value.length)
+        if(element.value.length < 3){
+          element.style.backgroundColor = 'red';
+        }else{
+          element.style.backgroundColor = 'green';
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <input type="text" onfocus="modificarBackground1('#ffff00')" onblur="modificarBackground2()" id="input_exemplo" style="background: gray">
+  </body>
+</html>
